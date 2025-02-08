@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\TestProject1\\TestProject1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\EP\\EP.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\EP\\EP.csproj",
+        "projectName": "EP",
+        "projectPath": "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\EP\\EP.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\gr\\gr.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\gr\\gr.csproj",
+        "projectName": "gr",
+        "projectPath": "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\gr\\gr.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\EP\\EP.csproj": {
+                "projectPath": "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\EP\\EP.csproj"
+              },
+              "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\PolynomialLibrary\\PolynomialLibrary.csproj": {
+                "projectPath": "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\PolynomialLibrary\\PolynomialLibrary.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\PolynomialLibrary\\PolynomialLibrary.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\PolynomialLibrary\\PolynomialLibrary.csproj",
+        "projectName": "PolynomialLibrary",
+        "projectPath": "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\PolynomialLibrary\\PolynomialLibrary.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\EP\\EP.csproj": {
+                "projectPath": "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\EP\\EP.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\TestProject1\\TestProject1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\TestProject1\\TestProject1.csproj",
+        "projectName": "TestProject1",
+        "projectPath": "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\TestProject1\\TestProject1.csproj",
+        "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\TestProject1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Никита\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\EP\\EP.csproj": {
+                "projectPath": "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\EP\\EP.csproj"
+              },
+              "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\gr\\gr.csproj": {
+                "projectPath": "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\gr\\gr.csproj"
+              },
+              "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\PolynomialLibrary\\PolynomialLibrary.csproj": {
+                "projectPath": "C:\\Users\\Никита\\Downloads\\lab2\\lab2\\PolynomialLibrary\\PolynomialLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
