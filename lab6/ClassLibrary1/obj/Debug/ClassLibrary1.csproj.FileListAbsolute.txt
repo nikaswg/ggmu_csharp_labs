@@ -1,0 +1,6 @@
+C:\Users\Никита\Downloads\lab6\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Никита\Downloads\lab6\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Никита\Downloads\lab6\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.AssemblyReference.cache
+C:\Users\Никита\Downloads\lab6\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Downloads\lab6\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Никита\Downloads\lab6\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

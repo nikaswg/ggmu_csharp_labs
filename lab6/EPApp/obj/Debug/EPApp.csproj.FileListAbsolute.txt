@@ -1,0 +1,13 @@
+C:\Users\Никита\Downloads\lab6\EPApp\bin\Debug\EPApp.exe.config
+C:\Users\Никита\Downloads\lab6\EPApp\bin\Debug\EPApp.exe
+C:\Users\Никита\Downloads\lab6\EPApp\bin\Debug\EPApp.pdb
+C:\Users\Никита\Downloads\lab6\EPApp\bin\Debug\ClassLibrary1.dll
+C:\Users\Никита\Downloads\lab6\EPApp\bin\Debug\ClassLibrary1.pdb
+C:\Users\Никита\Downloads\lab6\EPApp\obj\Debug\EPApp.csproj.AssemblyReference.cache
+C:\Users\Никита\Downloads\lab6\EPApp\obj\Debug\EPApp.Form1.resources
+C:\Users\Никита\Downloads\lab6\EPApp\obj\Debug\EPApp.Properties.Resources.resources
+C:\Users\Никита\Downloads\lab6\EPApp\obj\Debug\EPApp.csproj.GenerateResource.cache
+C:\Users\Никита\Downloads\lab6\EPApp\obj\Debug\EPApp.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Downloads\lab6\EPApp\obj\Debug\EPApp.csproj.Up2Date
+C:\Users\Никита\Downloads\lab6\EPApp\obj\Debug\EPApp.exe
+C:\Users\Никита\Downloads\lab6\EPApp\obj\Debug\EPApp.pdb
