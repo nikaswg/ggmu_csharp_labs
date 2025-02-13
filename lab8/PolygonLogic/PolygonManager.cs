@@ -1,8 +1,8 @@
-﻿using System;
+﻿using PolygonLibrary;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using PolygonLibrary;
 
 namespace PolygonManagerLibrary
 {
@@ -26,7 +26,7 @@ namespace PolygonManagerLibrary
                     foreach (var line in File.ReadLines(filePath))
                     {
                         var parts = line.Split(' ');
-                        var sides = parts.Take(parts.Length - 1).Select(double.Parse).ToArray(); // Используем double.Parse
+                        var sides = parts.Take(parts.Length - 1).Select(double.Parse).ToArray();
                         var color = parts.Last();
 
                         Polygon polygon;
@@ -121,23 +121,59 @@ namespace PolygonManagerLibrary
             }
         }
 
-        public void AddPolygon(Polygon polygon)
+        public void AddPolygon(double[] sides, string color)
         {
+            Polygon polygon;
+
+            if (sides.Length == 3)
+            {
+                polygon = new Triangle(sides, color);
+            }
+            else if (sides.Length == 2)
+            {
+                polygon = new Rectangle(sides, color);
+            }
+            else if (sides.Length >= 3)
+            {
+                polygon = new RegularPolygon(sides, color);
+            }
+            else
+            {
+                throw new ArgumentException("Неизвестный тип многоугольника.");
+            }
+
             Polygons.Add(polygon);
             SaveToFile();
         }
 
-        public void EditPolygon(int index, Polygon newPolygon)
+        public void EditPolygon(int index, double[] sides, string color)
         {
-            if (index >= 0 && index < Polygons.Count)
-            {
-                Polygons[index] = newPolygon;
-                SaveToFile();
-            }
-            else
+            if (index < 0 || index >= Polygons.Count)
             {
                 throw new ArgumentOutOfRangeException("Индекс вне диапазона.");
             }
+
+            Polygon newPolygon;
+
+            if (sides.Length == 3)
+            {
+                newPolygon = new Triangle(sides, color);
+            }
+            else if (sides.Length == 2)
+            {
+                newPolygon = new Rectangle(sides, color);
+            }
+            else if (sides.Length >= 3)
+            {
+                newPolygon = new RegularPolygon(sides, color);
+            }
+            else
+            {
+                throw new ArgumentException("Неизвестный тип многоугольника.");
+            }
+
+            Polygons[index] = newPolygon;
+            SaveToFile();
         }
 
         public List<string> GetPolygonInfo()
@@ -180,7 +216,6 @@ namespace PolygonManagerLibrary
 
             return results;
         }
-    
 
         private bool IsRightAngled(Triangle triangle)
         {

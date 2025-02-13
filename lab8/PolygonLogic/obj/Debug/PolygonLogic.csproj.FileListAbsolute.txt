@@ -7,3 +7,12 @@ C:\Users\Никита\Downloads\lab8\PolygonLogic\obj\Debug\PolygonLogic.csproj.
 C:\Users\Никита\Downloads\lab8\PolygonLogic\obj\Debug\PolygonL.9651E531.Up2Date
 C:\Users\Никита\Downloads\lab8\PolygonLogic\obj\Debug\PolygonLogic.dll
 C:\Users\Никита\Downloads\lab8\PolygonLogic\obj\Debug\PolygonLogic.pdb
+C:\Users\Никита\Downloads\ggmu_csharp_labs\lab8\PolygonLogic\bin\Debug\PolygonLogic.dll
+C:\Users\Никита\Downloads\ggmu_csharp_labs\lab8\PolygonLogic\bin\Debug\PolygonLogic.pdb
+C:\Users\Никита\Downloads\ggmu_csharp_labs\lab8\PolygonLogic\bin\Debug\PolygonData.dll
+C:\Users\Никита\Downloads\ggmu_csharp_labs\lab8\PolygonLogic\bin\Debug\PolygonData.pdb
+C:\Users\Никита\Downloads\ggmu_csharp_labs\lab8\PolygonLogic\obj\Debug\PolygonLogic.csproj.AssemblyReference.cache
+C:\Users\Никита\Downloads\ggmu_csharp_labs\lab8\PolygonLogic\obj\Debug\PolygonLogic.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Downloads\ggmu_csharp_labs\lab8\PolygonLogic\obj\Debug\PolygonL.9651E531.Up2Date
+C:\Users\Никита\Downloads\ggmu_csharp_labs\lab8\PolygonLogic\obj\Debug\PolygonLogic.dll
+C:\Users\Никита\Downloads\ggmu_csharp_labs\lab8\PolygonLogic\obj\Debug\PolygonLogic.pdb

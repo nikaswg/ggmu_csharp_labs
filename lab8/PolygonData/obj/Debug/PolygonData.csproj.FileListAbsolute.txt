@@ -4,3 +4,9 @@ C:\Users\Никита\Downloads\lab8\PolygonData\obj\Debug\PolygonData.csproj.As
 C:\Users\Никита\Downloads\lab8\PolygonData\obj\Debug\PolygonData.csproj.CoreCompileInputs.cache
 C:\Users\Никита\Downloads\lab8\PolygonData\obj\Debug\PolygonData.dll
 C:\Users\Никита\Downloads\lab8\PolygonData\obj\Debug\PolygonData.pdb
+C:\Users\Никита\Downloads\ggmu_csharp_labs\lab8\PolygonData\bin\Debug\PolygonData.dll
+C:\Users\Никита\Downloads\ggmu_csharp_labs\lab8\PolygonData\bin\Debug\PolygonData.pdb
+C:\Users\Никита\Downloads\ggmu_csharp_labs\lab8\PolygonData\obj\Debug\PolygonData.csproj.AssemblyReference.cache
+C:\Users\Никита\Downloads\ggmu_csharp_labs\lab8\PolygonData\obj\Debug\PolygonData.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Downloads\ggmu_csharp_labs\lab8\PolygonData\obj\Debug\PolygonData.dll
+C:\Users\Никита\Downloads\ggmu_csharp_labs\lab8\PolygonData\obj\Debug\PolygonData.pdb
