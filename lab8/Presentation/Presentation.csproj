@@ -80,6 +80,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PolygonData\PolygonData.csproj">
+      <Project>{4f3df1a1-8d5c-4ae3-8c46-1041d43bf341}</Project>
+      <Name>PolygonData</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PolygonLogic\PolygonLogic.csproj">
       <Project>{fe130430-3461-426f-b41b-82557ec5794c}</Project>
       <Name>PolygonLogic</Name>
