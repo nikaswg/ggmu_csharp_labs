@@ -1,0 +1,61 @@
+﻿<Window x:Class="TheaterTickets.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:TheaterTickets"
+        xmlns:core="clr-namespace:TheaterTickets.Core;assembly=TheaterTickets.Core"
+        Title="Театральные билеты" Height="600" Width="800">
+    <Window.Resources>
+        <local:BoolToTextConverter x:Key="BoolToTextConverter"/>
+    </Window.Resources>
+    <Grid Margin="10">
+        <TabControl>
+            <!-- Покупка -->
+            <TabItem Header="Покупка">
+                <StackPanel>
+                    <ComboBox x:Name="cmbSpectacle" DisplayMemberPath="Name" Margin="5"/>
+                    <ComboBox x:Name="cmbType" SelectedIndex="0" Margin="5">
+                        <ComboBoxItem>Партер</ComboBoxItem>
+                        <ComboBoxItem>Балкон</ComboBoxItem>
+                        <ComboBoxItem>Ложа</ComboBoxItem>
+                    </ComboBox>
+                    <TextBox x:Name="txtCustomer" Text="Введите имя" Margin="5"
+                            Foreground="Gray"/>
+                    <TextBox x:Name="txtQuantity" Text="1" Margin="5"/>
+                    <Button Content="Купить" Click="Buy_Click" Margin="5"/>
+                </StackPanel>
+            </TabItem>
+
+            <!-- Спектакли -->
+            <TabItem Header="Спектакли">
+                <DataGrid x:Name="dgSpectacles" AutoGenerateColumns="False" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Название" Binding="{Binding Name}"/>
+                        <DataGridTextColumn Header="Дата" Binding="{Binding Date, StringFormat=dd.MM.yyyy}"/>
+                        <DataGridTextColumn Header="Партер" Binding="{Binding TicketStats[Parter]}"/>
+                        <DataGridTextColumn Header="Балкон" Binding="{Binding TicketStats[Balcony]}"/>
+                        <DataGridTextColumn Header="Ложа" Binding="{Binding TicketStats[Lodge]}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+
+            <TabItem Header="Клиенты">
+                <DataGrid x:Name="dgCustomers" AutoGenerateColumns="False" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Имя" Binding="{Binding Name}"/>
+                        <DataGridTextColumn Header="Постоянный" Binding="{Binding IsRegular, Converter={StaticResource BoolToTextConverter}}"/>
+                        <DataGridTextColumn Header="Скидка" Binding="{Binding DiscountDisplay}"/>
+                        <DataGridTextColumn Header="Всего билетов" Binding="{Binding TotalTickets}"/>
+                        <DataGridTextColumn Header="Покупки за год" Binding="{Binding PurchasesThisYear.Count}"/>
+                        <DataGridTemplateColumn Header="Детали">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="Показать" Click="ShowDetails_Click"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
