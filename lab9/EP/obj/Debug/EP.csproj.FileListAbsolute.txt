@@ -1,6 +1,0 @@
-C:\Users\Никита\Downloads\lab2\lab2\EP\bin\Debug\EP.dll
-C:\Users\Никита\Downloads\lab2\lab2\EP\bin\Debug\EP.pdb
-C:\Users\Никита\Downloads\lab2\lab2\EP\obj\Debug\EP.csproj.AssemblyReference.cache
-C:\Users\Никита\Downloads\lab2\lab2\EP\obj\Debug\EP.csproj.CoreCompileInputs.cache
-C:\Users\Никита\Downloads\lab2\lab2\EP\obj\Debug\EP.dll
-C:\Users\Никита\Downloads\lab2\lab2\EP\obj\Debug\EP.pdb
